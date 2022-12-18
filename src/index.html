@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>React Boilerplate</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<div id="root">
-</div>
+	<!-- the entire body must be written by student -->
+	<form method="post">
+	<h1>JobApp Form</h1>
+	
+			<label for="name">Name</label>
+			<input type="text"required  id="name" placeholder="Name">
+		
+			<label for="email">Email</label>
+			<input type="email"required id="email" placeholder="Email">
+		
+			<label for="Gender">Gender</label>
+			<input type="radio"required name="gender">Male
+			<input type="radio"required name="gender">Female
+		
+			<label for="laptop">Laptop Brand</label>
+			<select name="option" id="laptop">
+				<option value="Apple" id="laptop">Apple</option>
+				<option value="Asus" id="laptop">Asus</option>
+				<option value="hp" id="laptop">HP</option>
+			</select>
+		
+			<label for="age" class="age" id="Age">Age</label>
+			<input type="number"required id="age">
+		
+		<label for="dob">DOB</label>
+		<input type="date"required id="dob">
+	
+			<label for="password">Password</label>
+			<input type="number"required  id="password">
+
+			<label for="portfolio">portfolio</label>
+			<input type="url"required id="portfolio">
+		
+			<button type="submit">Submit button</button>
+		
+	</form>
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
 </html>
